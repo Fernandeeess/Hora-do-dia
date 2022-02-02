@@ -1,5 +1,5 @@
 let agora = new Date();
-let hora = 6 // agora.getHours();
+let hora = agora.getHours();
 let minutos = agora.getMinutes();
 let paragrafo = document.getElementById("paragraph");
 let imgpa = document.getElementById("imgpa");
